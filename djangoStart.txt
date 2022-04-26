@@ -1,0 +1,32 @@
+for virtual environment
+"use sudo to install"
+else add the installed path to $PATH
+
+
+->  sudo pip install virtualenv
+
+---------------------------------------------
+
+->  virtualenv envname
+
+->  envname/script/activate
+->  source envname/bin/activate
+->  deactivate
+
+---------------------------------------------
+
+-> pip install django
+
+->  django-admin startproject projectname
+
+->  cd projectname/
+
+-------------------------------------------------
+
+projectname = studybud
+
+
+
+->  python manage.py runserver
+
+->  python manage.py startapp base
