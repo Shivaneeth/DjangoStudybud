@@ -30,3 +30,18 @@ projectname = studybud
 ->  python manage.py runserver
 
 ->  python manage.py startapp base
+
+--------------------------------------------------
+-> python manage.py migrate
+
+-> python manage.py makemigrations
+
+--------------------------------------------------
+
+-> python manage.py createsuperuser
+
+===========================
+admin1
+admin.1@gmail.com
+admin1PSW
+===========================
